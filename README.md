@@ -1,30 +1,27 @@
+# MeanAngular6
 
-[![Build Status](https://travis-ci.org/bknds/ng-pi-admin.svg?branch=master)](https://travis-ci.org/bknds/ng-pi-admin)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
+## Development server
 
-Default | Dark | Light
----|---|---
-![](https://raw.githubusercontent.com/bknds/ng-pi-admin/master/default.png) |![](https://raw.githubusercontent.com/bknds/ng-pi-admin/master/dark.png) | ![](https://raw.githubusercontent.com/bknds/ng-pi-admin/master/light.png)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Based on
-Angular 4+, Angular CLI, TypeScript, Scss, Bootstrap
+## Build
 
-## Demo
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-[Live Demo](http://treesflower.com/ng-pi-admin)
+## Running unit tests
 
-## Getting started
-```
-git clone https://github.com/bknds/ng-pi-admin.git
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-npm install
+## Running end-to-end tests
 
-ng serve 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-localhost:4200
-```
+## Further help
 
-## License
-[MIT license](LICENSE)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

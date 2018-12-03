@@ -6,19 +6,19 @@ var logger = require('morgan');
 
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/firstproject', { promiseLibrary: require('bluebird') })
+mongoose.connect('mongodb://localhost/mean-angular6', { promiseLibrary: require('bluebird') })
     .then(() =>  console.log('connection successful'))
     .catch((err) => console.error(err));
 
-var apiRouter = require('./routes/user');
+var apiRouter = require('./routes/book');
 
 var app = express();
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, 'dist/firstproject')));
-app.use('/', express.static(path.join(__dirname, 'dist/firstproject')));
+app.use(express.static(path.join(__dirname, 'dist/mean-angular6')));
+app.use('/', express.static(path.join(__dirname, 'dist/mean-angular6')));
 app.use('/api', apiRouter);
 
 // catch 404 and forward to error handler
